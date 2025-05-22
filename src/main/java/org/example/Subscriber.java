@@ -6,7 +6,7 @@ import org.eclipse.paho.client.mqttv3.*;
  * MQTT subscriber that listens for messages on a shared topic and updates ChatHandler.
  * Connects to the broker at broker.hivemq.com and subscribes to the topic "cal-poly/csc/309".
  * Filters out messages from the local sender and passes incoming messages to ChatHandler.
- * Used to receive and propagate chat messages in real-time.
+ * Is Used to receive and propagate chat messages in real-time.
  *
  * @author Davis Morales
  * @version 1.0
